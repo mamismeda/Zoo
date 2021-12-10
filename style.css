@@ -24,6 +24,7 @@ a{
 }
 .first-cont{
     height: 40px;
+    
 }
 
 .fonty{
@@ -114,4 +115,18 @@ nav a{
     line-height: 19px;
     background-color: #e23848;
     padding: 17px 35px;
+}
+.copyright{
+    height: 208px;
+    background-color: #f0f2ea;
+}
+.space{
+    justify-content: space-between;
+}
+.lab{
+    width: 207px;
+    height: 108px;
+    margin-top: 30px;
+    background-color: #fff;
+    border:1px solid #d2d2d2;
 }
