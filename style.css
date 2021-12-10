@@ -12,6 +12,8 @@
 a{
     text-decoration: none;
 }
+
+
 .col-lg-9{
     text-align: right;
 }
@@ -20,27 +22,27 @@ a{
     width: 100%;
     position: absolute;
     z-index: 3;
-    height: 40px;
-}
-.first-cont{
-    height: 40px;
-    
+    height: 32px;
 }
 
 .fonty{
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bold;
     font-family: mtavruli;
-    margin: 10px 0 0 0 ;
+    margin-top: 6.5px;
+}
+.second-fonty{
+    font-size:14px;
+    margin: 8px 0 0 0;
 }
 .second-fonty a{
-    margin: 0 0 0 35px;
+    margin: 0 0 0 20px;
 }
 nav a{
     color: #fff;
 }
 .carousel-item{
-    height: 730px;
+    height: 585px;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,14 +52,15 @@ nav a{
 }
 .second-nav{
     width: 100%;
-    height: 100px;
+    height: 80px;
     position: absolute;
-    top: 40px;
+    top: 33px;
     z-index: 1;
     background-color: #fff;
 }
 .logoped img{
-    margin: 30px 0 0 0;
+    height: 43px;
+    margin: 23px 0 0 0;
 }
 
 .circle-logo a{
@@ -66,11 +69,11 @@ nav a{
     font-family: mtavruli;
     color: #6b6b6b; 
     display: inline-block;
-    margin: 35px 0 0 10px;
+    margin: 30px 0 0 8px;
 }
-.circle-logo img{
+/* .circle-logo img{
     margin: 0 0 0 35px;
-}
+} */
 .circle-logo{
     text-align: right;
 }
@@ -117,16 +120,78 @@ nav a{
     padding: 17px 35px;
 }
 .copyright{
-    height: 208px;
+    height: 150px;
     background-color: #f0f2ea;
 }
 .space{
     justify-content: space-between;
 }
 .lab{
-    width: 207px;
-    height: 108px;
-    margin-top: 30px;
+    width: 166px;
+    height: 88px;
+    margin-top: 24px;
+    margin-bottom: -40px;
     background-color: #fff;
     border:1px solid #d2d2d2;
+}
+.last-p{
+    font-size: 11px;
+    color: #828282;
+    font-weight: bold;
+    font-family: "Arial";
+}
+.last-par{
+    font-size: 11px;
+    color: #828282;
+    font-weight: bold;
+    font-family: mtavruli;
+}
+.left{
+    margin-top:72px;
+    padding: 0;
+    height: 22px;
+}
+.rela{
+    position:relative;
+    top:-6px;
+}
+.right{
+    margin-top:73px;
+    text-align: right;
+    padding: 0;
+    height: 22px;
+}
+
+.paste-1{
+    width: 48px;
+    height: 46px;
+    margin-bottom: 12.5px;
+    margin-right: -6px;
+}
+.paste-2{
+    width: 43px;
+    height: 42.5px;
+    margin-bottom: 4px;
+    margin-left: 24px;
+}
+.paste-3{
+    width: 41px;
+    height: 40px;
+    margin-bottom: 6px;
+    margin-left: 28px;
+}
+.paste-4{
+    width: 42.5px;
+    height: 40px;
+    margin-bottom: 6px;
+    margin-left: 26px;
+}
+.paste-5{
+    width: 40px;
+    height: 40.5px;
+    margin-bottom: 7px;
+    margin-left: 24px;
+}
+.stretch{
+    padding: 15px 0;
 }
