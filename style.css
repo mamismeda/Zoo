@@ -112,6 +112,14 @@ nav a{
     line-height: 19px;
     margin: 0 0 20px 0;
 }
+@media all and (max-width:450px){
+    .top{
+        font-size: 15px;
+        display: block;
+        text-align: center;
+        margin-top: -250px;
+    }
+}
 .bot{
     font-family: arial;
     font-size: 17px;
@@ -120,6 +128,15 @@ nav a{
     padding: 0 200px 0 0;
     margin: 0 0 51px 0;
 }
+@media all and (max-width:450px){
+    .bot{
+        font-size: 10px;
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+}
+
 .linky{
     text-decoration: none;
     color: #fff;
@@ -128,6 +145,12 @@ nav a{
     line-height: 19px;
     background-color: #e23848;
     padding: 14px 28px 10px 28px;
+}
+@media all and (max-width:350px){
+    .linky{
+        display: block;
+        text-align: center;
+    }
 }
 .copyright{
     height: 150px;
@@ -143,6 +166,18 @@ nav a{
     margin-bottom: -40px;
     background-color: #fff;
     border:1px solid #d2d2d2;
+}
+@media all and (max-width:350px){
+    .lab{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .lab img{
+        margin:auto;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
 }
 .last-p{
     font-size: 11px;
