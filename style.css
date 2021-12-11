@@ -58,24 +58,32 @@ nav a{
     z-index: 1;
     background-color: #fff;
 }
-.logoped img{
+@media all and (max-width:1000px){
+  .second-nav{
+      position: static;
+  }
+}
+@media all and (max-width:600px){
+    .second-nav{
+        padding: 0 50px;
+    }
+}
+.mainlogo{
     height: 43px;
-    margin: 23px 0 0 0;
 }
-
-.circle-logo a{
-    font-size: 17px;
-    font-weight:bold;
+.right-bar{
+    justify-content: flex-end;
+}
+.super{
+    padding: 0;
+}
+.super a{
     font-family: mtavruli;
-    color: #6b6b6b; 
-    display: inline-block;
-    margin: 30px 0 0 8px;
-}
-/* .circle-logo img{
-    margin: 0 0 0 35px;
-} */
-.circle-logo{
-    text-align: right;
+    font-size: 14px;
+    color: #6b6b6b;
+    font-weight: bold;
+    padding: 0;
+    margin-top: 20px;
 }
 
 .second-nav a{
@@ -162,34 +170,42 @@ nav a{
     height: 22px;
 }
 
-.paste-1{
+ .paste-1{
     width: 48px;
     height: 46px;
-    margin-top:10px;
+    margin-top: 2px;
+    
 }   
 .paste-2{
     width: 43px;
     height: 42.5px;
-    margin-top:10px;
+    margin-top:8px;
+    margin-right: 6px;
+    margin-left: 23px;
     
 }
 .paste-3{
     width: 41px;
     height: 40px;
-    margin-top:10px;
+    margin-top:9px;
+    margin-right: 7px;
+    margin-left: 24px;
 }
 .paste-4{
     width: 42.5px;
     height: 40px;
-    margin-top:10px;
+    margin-top:9px;
+    margin-right: 6px;
+    margin-left:22px;
     
-}
+} 
 .paste-5{
     width: 40px;
     height: 40.5px;
-    margin-top:10px;
-   
-}
+    margin-top:8.5px;
+    margin-right: 6px;
+    margin-left:23px
+} 
 .stretch{
     padding: 15px 0;
 }
