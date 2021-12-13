@@ -265,4 +265,9 @@ nav a{
     padding: 0;
     margin: 0;
 }
+.bardrop a{
+    font-family: arial;
+    color: #4b4b4b;
+    font-size: 14px;
+}
 
